@@ -1,0 +1,17 @@
+{
+    "name": "rajwebconsulting/button-api",
+    "description": "a Custom Button API extension for our MP3 Converter Pro v3",
+    "type": "project",
+    "license": "CC BY-NC-ND 4.0",
+    "authors": [
+        {
+            "name": "Andre H.",
+            "email": "andre@amail.ovh"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "rajwebconsulting/json-api-sdk": "^1.0.3",
+        "josantonius/request": "^1.0"
+    }
+}
