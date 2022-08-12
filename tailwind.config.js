@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.php"],
+  content: ["./iframe/**/*.php", "./*.php"],
   safelist: [
     'bg-gray-500',
     'bg-red-500',
