@@ -17,7 +17,11 @@ if (Request::isGet())
    {
       if ($color == 'blue' || $color == 'green' || $color == 'purple' || $color == 'red' || $color == 'yellow' || $color == 'indigo' || $color == 'pink' || $color == 'gray')
       {
-         $colorClass = 'class="bg-' . htmlspecialchars($color, ENT_QUOTES, 'utf-8'). '-500"';
+         $colorClass = 'class="bg-' . htmlspecialchars($color, ENT_QUOTES, 'utf-8'). '-500 text-white"';
+      }
+      else if($color == 'white')
+      {
+         $colorClass = 'class="bg-white text-gray-800"';
       }
       else if (preg_match('/^[a-zA-Z0-9]/', $color))
       {
