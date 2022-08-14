@@ -1,3 +1,4 @@
+<?php require_once 'Config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,11 +14,11 @@
     <div class="bg-gray-100 min-h-screen">
         <div class="pt-8">
             <div class="bg-white mx-auto md:max-w-[800px] rounded-md p-4">
-                <h1 class="text-3xl">Free YouTube to MP3 API</h1>
+                <h1 class="text-3xl text-center">Free YouTube to MP3 API</h1>
                 <ul class="list-disc list-inside pl-4 pt-4 text-md">
                     <li>Fully responsive</li>
                     <li>Customizable with color and size options.</li>
-                    <li>Grab the code below and replace YOUTUBEID with a youtube id. That's it!</li>
+                    <li>Grab the code below and replace <span class="bg-yellow-100">YOUTUBEID</span> with a youtube id. That's it!</li>
                 </ul>
 
                 <div class="relative overflow-hidden overflow-x-auto min-with-[18rem] p-5 rounded-xl bg-gray-800 text-white m-4">
@@ -45,7 +46,7 @@
                             </ul>
                         </div>
                         <div class="w-full md:w-2/4">
-                        <p class="font-bold pt-5">also you can use ANY hex colors, examples:</p>
+                            <p class="font-bold pt-5">also you can use ANY hex colors, examples:</p>
                             <ul class="pt-4 text-md">
                                 <li><span class="bg-[#1383FF] px-2 py-0 mr-2"></span> 1383FF</li>
                                 <li><span class="bg-[#2DB94D] px-2 py-0 mr-2"></span> 2DB94D</li>
@@ -55,10 +56,15 @@
                             <p class="pt-4">Use hex color parameter <span class="font-bold">without</span> the '#' sign.</p>
                         </div>
                     </div>
+                    <p class="pt-4">Note: Button is fully responsive, you may use dynamic width and height.
+                            Also feel free to customize the look further by adding border, shadow, roundness to the iframe style.</p>
+                    <p class="pt-4">This api is free and there is no limit with the usage.</p>
+
+                    <p class="pt-4 text-center font-bold">More Examples:</p>
                 </div>
             </div>
+            <p class="pt-4 text-center"><?php echo date('Y'); ?> &copy; <?php echo Config::_DOMAIN; ?></p>
         </div>
     </div>
 </body>
-
 </html>
