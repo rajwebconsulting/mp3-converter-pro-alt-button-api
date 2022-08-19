@@ -2,6 +2,8 @@
 
 class Config
 {
-    const _DOMAIN = 'localhost:7000';
-    const _CONVERTER_URL = 'https://ytapi.download';
+    // Domain of this Script
+    const _DOMAIN = 'https://yourDomain.com';
+    // Domain of MP3 Converter Pro v3
+    const _CONVERTER_URL = 'https://yourDomain.com';
 }

@@ -22,10 +22,15 @@
                 </ul>
 
                 <div class="relative overflow-hidden overflow-x-auto min-with-[18rem] p-5 rounded-xl bg-gray-800 text-white m-4">
-                    <code>&lt;iframe rel="nofollow" style="width:300px; height:60px; border:0px; display:block;" src=""&gt;&lt;/iframe&gt;</code>
+                    <code>&lt;iframe rel="nofollow" style="width:300px; height:60px; border:0px; display:block;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=green&vid=YOUTUBEID"&gt;&lt;/iframe&gt;</code>
                 </div>
-                <div class="flex justify-center">
-                    <p>Example:</p>
+                <div class="flex flex-col justify-center mx-auto">
+                    <div class="mx-auto my-4">
+                        <p>Example:</p>
+                    </div>
+                    <div class="mx-auto">
+                        <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display:block;" scrolling="no" src="http://localhost:7000/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
+                    </div>
                 </div>
                 <div class="pt-10">
                     <p>You may change the look by editing <span class="bg-yellow-100">color</span> parameter and <span class="bg-yellow-100">width & height</span>
@@ -34,7 +39,7 @@
                     <div class="flex flex-wrap justify-center">
                         <div class="w-full md:w-2/4">
                             <p class="font-bold pt-5">predefined color options:</p>
-                            <ul class="pt-4 text-md">
+                            <ul class="pt-4 text-md pl-4">
                                 <li><span class="bg-blue-500 px-2 py-0 mr-2"></span> blue</li>
                                 <li><span class="bg-green-500 px-2 py-0 mr-2"></span> green</li>
                                 <li><span class="bg-purple-500 px-2 py-0 mr-2"></span> purple</li>
@@ -47,7 +52,7 @@
                         </div>
                         <div class="w-full md:w-2/4">
                             <p class="font-bold pt-5">also you can use ANY hex colors, examples:</p>
-                            <ul class="pt-4 text-md">
+                            <ul class="pt-4 text-md pl-4">
                                 <li><span class="bg-[#1383FF] px-2 py-0 mr-2"></span> 1383FF</li>
                                 <li><span class="bg-[#2DB94D] px-2 py-0 mr-2"></span> 2DB94D</li>
                                 <li><span class="bg-[#DF4454] px-2 py-0 mr-2"></span> DF4454</li>
@@ -57,14 +62,31 @@
                         </div>
                     </div>
                     <p class="pt-4">Note: Button is fully responsive, you may use dynamic width and height.
-                            Also feel free to customize the look further by adding border, shadow, roundness to the iframe style.</p>
+                        Also feel free to customize the look further by adding border, shadow, roundness to the iframe style.</p>
                     <p class="pt-4">This api is free and there is no limit with the usage.</p>
 
                     <p class="pt-4 text-center font-bold">More Examples:</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-4 mt-4">
+                        <div class="mx-auto">
+                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="http://localhost:7000/iframe?color=blue&vid=2vjPBrBU-TM"></iframe>
+                        </div>
+                        <div class="mx-auto">
+                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="http://localhost:7000/iframe?color=red&vid=2vjPBrBU-TM"></iframe>
+                        </div>
+                        <div class="mx-auto">
+                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid #000; display:block; border-radius:8px;" scrolling="no" src="http://localhost:7000/iframe?color=333&vid=2vjPBrBU-TM"></iframe>
+                        </div>
+                        <div class="mx-auto">
+                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid green; display:block; border-radius:8px;" scrolling="no" src="http://localhost:7000/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <p class="pt-4 text-center"><?php echo date('Y'); ?> &copy; <?php echo Config::_DOMAIN; ?></p>
+            <p class="pt-4 text-center"><?php echo date('Y'); ?> &copy; <?php echo $_SERVER['SERVER_NAME']; ?></p>
         </div>
     </div>
 </body>
+
 </html>
