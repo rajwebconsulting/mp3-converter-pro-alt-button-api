@@ -29,7 +29,7 @@
                         <p>Example:</p>
                     </div>
                     <div class="mx-auto">
-                        <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display:block;" scrolling="no" src="http://localhost:7000/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
+                        <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display:block;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
                     </div>
                 </div>
                 <div class="pt-10">
@@ -69,16 +69,16 @@
                     
                     <div class="grid md:grid-cols-2 gap-4 mt-4">
                         <div class="mx-auto">
-                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="http://localhost:7000/iframe?color=blue&vid=2vjPBrBU-TM"></iframe>
+                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=blue&vid=2vjPBrBU-TM"></iframe>
                         </div>
                         <div class="mx-auto">
-                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="http://localhost:7000/iframe?color=red&vid=2vjPBrBU-TM"></iframe>
+                            <iframe rel="nofollow" style="width:300px; height:60px; border:0px; display: block; margin:auto;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=red&vid=2vjPBrBU-TM"></iframe>
                         </div>
                         <div class="mx-auto">
-                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid #000; display:block; border-radius:8px;" scrolling="no" src="http://localhost:7000/iframe?color=333&vid=2vjPBrBU-TM"></iframe>
+                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid #000; display:block; border-radius:8px;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=333&vid=2vjPBrBU-TM"></iframe>
                         </div>
                         <div class="mx-auto">
-                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid green; display:block; border-radius:8px;" scrolling="no" src="http://localhost:7000/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
+                            <iframe rel="nofollow" style="width:300px; height:65px; border:2px solid green; display:block; border-radius:8px;" scrolling="no" src="<?php echo Config::_DOMAIN; ?>/iframe?color=green&vid=2vjPBrBU-TM"></iframe>
                         </div>
                     </div>
 
