@@ -16,11 +16,11 @@ To leverage a single MP3 Converter Pro license to implement MP3 download buttons
  - All [MP3 Converter Pro requirements](https://shop.rajwebconsulting.com/knowledgebase/41/How-To-install-MP3-Converter-Pro-Update-v3.0.5-beta5-on-aaPanel-recommended.html)
 - PHP 7.4+
 
-### Installation
+## Installation
 
 1.) Download zip or Clone Github repo 
 
-2.) navigate to Domain root dir in terminal
+2.) Navigate to Domain root dir in terminal
 
 3.) Install dependencies via composer
 
