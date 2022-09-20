@@ -1,5 +1,7 @@
 ### This "Alternate" Single Button API leverages our [MP3 Converter Pro JSON API PHP SDK](https://github.com/rajwebconsulting/mp3-converter-pro-json-api-php-sdk) to enable MULTIPLE domains to consume the Same, Single [MP3 Converter Pro](https://demo.apiyoutu.be) installation and display corresponding, customizable, MP3 download buttons - Brought to you by [RAJ Web Consulting](https://rajwebconsulting.com)
 
+![GitHub top language](https://img.shields.io/github/languages/top/rajwebconsulting/mp3-converter-pro-json-api-php-sdk) ![GitHub language count](https://img.shields.io/github/languages/count/rajwebconsulting/mp3-converter-pro-json-api-php-sdk) ![GitHub issues](https://img.shields.io/github/issues/rajwebconsulting/mp3-converter-pro-json-api-php-sdk) 
+
 This API enables MP3 conversions of multimedia content from **YouTube, TikTok, Facebook, Instagram, Twitter, SoundCloud, Vimeo, Dailymotion, VK,** and **AOL** -- 10 of the largest video/audio hosting sites in the world!
 
 > **Note**: While only MP3 download format is currently supported (by default), the underlying JSON API PHP SDK still supports both MP3 _and_ MP4. Thus, MP4 support can be easily added via some minor code modification, and we'll try to update this project accordingly in the future. 
