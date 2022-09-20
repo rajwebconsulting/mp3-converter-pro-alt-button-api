@@ -47,3 +47,7 @@ class Config
     const _CONVERTER_URL = 'https://yourDomain.com';
 }
 ```
+
+## Usage
+
+Please [**visit the MP3 Converter Pro "Alternate" Single Button API GitHub page for live examples**](https://rajwebconsulting.github.io/mp3-converter-pro-alt-button-api/).
