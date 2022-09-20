@@ -6,7 +6,10 @@ This API enables MP3 conversions of multimedia content from **YouTube, TikTok, F
 
 ## Use Case
 
-To leverage a single MP3 Converter Pro license to implement MP3 download buttons on multiple, different domains, isolating MP3 conversion and file caching to a single, primary domain (where the MP3 Converter Pro is installed) while freeing up valuable server resources on the remaining domains. 
+To leverage a single MP3 Converter Pro license to implement MP3 download buttons on multiple, different domains, thereby:
+- Isolating MP3 conversion and file caching to a single, Primary Domain (where the MP3 Converter Pro is installed)
+- Freeing up valuable server resources on the remaining domains
+- Enabling the monetization of multiple domains instead of only the Primary Domain
 
 ## Requirements
 
@@ -18,22 +21,22 @@ To leverage a single MP3 Converter Pro license to implement MP3 download buttons
 
 ## Installation
 
-1.) Download zip or Clone Github repo 
+1.) Download GitHub project ZIP file or Clone GitHub repo
 
-2.) Navigate to Domain root dir in terminal
+2.) Navigate to your web root directory in a command-line terminal
 
-3.) Install dependencies via composer
+3.) Install project dependencies via Composer:
 
 ```bash
 composer install --no-dev
 ```
 
-or in aaPanel as php user
+...or via [**aaPanel**](https://shop.rajwebconsulting.com/knowledgebase/31/How-To-install-aaPanel-incl.-LAMP-for-MP3-Converter-Pro-and-YouTube-Video-Backend.html), as PHP user (e.g., "www"):
 ```bash
 sudo -u www composer install --no-dev
 ```
 
-4.) Edit Config.php with your Domains
+4.) Edit Config.php and add your Domains:
 
 ```php
 class Config
